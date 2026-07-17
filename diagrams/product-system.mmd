@@ -1,0 +1,28 @@
+%% ZippoTech product system — source diagram
+flowchart TB
+    SIGNAL[Product signal] --> EXPERIENCE
+
+    subgraph EXPERIENCE[Experience Layer]
+      Next[Next.js] --- React[React]
+      TypeScript[TypeScript] --- Laravel[Laravel]
+    end
+
+    subgraph SERVICES[Service Layer]
+      Node[Node.js] --- Go[Go]
+      Python[Python] --- LLM[LLM Engineering]
+    end
+
+    subgraph STATE[State Layer]
+      Postgres[(PostgreSQL)] --- Mongo[(MongoDB)]
+    end
+
+    subgraph PLATFORM[Platform Layer]
+      Docker[Docker] --- Kubernetes[Kubernetes]
+      DevOps[DevOps] --- Cloud[Cloud Infrastructure]
+    end
+
+    EXPERIENCE --> SERVICES
+    SERVICES --> STATE
+    SERVICES --> PLATFORM
+    PLATFORM -. telemetry .-> EXPERIENCE
+    EXPERIENCE --> VALUE[Operational value]

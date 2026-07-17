@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
+  <title id="t">Identity console</title><desc id="d">Four linked engineering disciplines forming one product builder identity.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#8da1c2"/><stop offset="1" stop-color="#6f647f"/></linearGradient><style>.l{font:600 11px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1.6px;fill:#727b88}.v{font:600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#edf2f7}.s{font:400 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#8c96a4}.dot{animation:p 2.8s ease-in-out infinite}@keyframes p{50%{opacity:.25}}</style></defs>
+  <rect width="1200" height="260" rx="12" fill="#0d1014" stroke="#292f38"/>
+  <path d="M72 132H1128" stroke="#303741"/><path d="M72 132H1128" stroke="url(#g)" stroke-dasharray="4 14"/>
+  <g transform="translate(72 60)"><text class="l">INPUT</text><text class="v" y="34">Ambiguous problem</text><text class="s" y="60">needs shape</text></g>
+  <g transform="translate(342 60)"><circle cx="0" cy="72" r="6" fill="#91a5c5" class="dot"/><text x="-44" class="l">FULL STACK</text><text x="-44" class="v" y="118">Deliver</text><text x="-44" class="s" y="144">the experience</text></g>
+  <g transform="translate(596 60)"><circle cx="0" cy="72" r="6" fill="#91a5c5" class="dot" style="animation-delay:.5s"/><text x="-28" class="l">AI</text><text x="-44" class="v" y="118">Augment</text><text x="-44" class="s" y="144">the capability</text></g>
+  <g transform="translate(820 60)"><circle cx="0" cy="72" r="6" fill="#827790" class="dot" style="animation-delay:1s"/><text x="-34" class="l">CLOUD</text><text x="-44" class="v" y="118">Operate</text><text x="-44" class="s" y="144">the system</text></g>
+  <g transform="translate(1010 60)"><circle cx="0" cy="72" r="6" fill="#827790" class="dot" style="animation-delay:1.5s"/><text x="-52" class="l">ARCHITECTURE</text><text x="-44" class="v" y="118">Evolve</text><text x="-44" class="s" y="144">the product</text></g>
+</svg>
