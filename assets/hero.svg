@@ -1,34 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">Natanael Sijabat — engineering systems with product intent</title>
-  <desc id="desc">A dark minimal command surface with an animated system path and Natanael's roles.</desc>
+<svg width="1600" height="360" viewBox="0 0 1600 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0d10"/><stop offset=".55" stop-color="#11151b"/><stop offset="1" stop-color="#0b0d10"/></linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#343b46"/><stop offset=".5" stop-color="#9aa9c4"/><stop offset="1" stop-color="#4b435f"/></linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
-    <style>
-      .eyebrow{font:600 12px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:2px;fill:#8b949e}.name{font:600 64px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#f4f7fb}.copy{font:400 19px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#a8b0bc}.mono{font:500 13px ui-monospace,SFMono-Regular,Consolas,monospace;fill:#d3dae5}.dim{fill:#69717d}.pulse{animation:pulse 3s ease-in-out infinite}.scan{animation:scan 7s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}@keyframes scan{0%{transform:translateX(-90px);opacity:0}15%,75%{opacity:.7}100%{transform:translateX(1020px);opacity:0}}
-    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0" y1="0" x2="1600" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30363D"/>
+      <stop offset="0.5" stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#30363D"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#21262D" stroke-width="1"/>
+    </pattern>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+    </filter>
   </defs>
-  <rect width="1200" height="520" rx="18" fill="url(#bg)"/>
-  <path d="M0 84H1200M0 436H1200" stroke="#242a32"/>
-  <circle cx="48" cy="42" r="5" fill="#747d8c"/><circle cx="68" cy="42" r="5" fill="#454c56"/><circle cx="88" cy="42" r="5" fill="#303640"/>
-  <text x="600" y="47" text-anchor="middle" class="eyebrow">ZIPPO / OPERATING SURFACE</text>
-  <g transform="translate(68 126)">
-    <text class="eyebrow" y="0">NATANAEL SIJABAT · SYSTEM 01</text>
-    <text class="name" y="94">Engineering systems</text>
-    <text class="name" y="166" fill="#c8d0dc">with product intent.</text>
-    <text class="copy" y="220">Senior Full Stack Engineer · AI Engineer · Cloud Engineer · Product Architect</text>
-  </g>
-  <g transform="translate(68 390)">
-    <circle cx="5" cy="-5" r="5" fill="#8ea4c7" class="pulse"/>
-    <text x="20" class="mono">AVAILABLE FOR HIGH-LEVERAGE SYSTEMS</text>
-  </g>
-  <g transform="translate(824 124)">
-    <rect width="308" height="232" rx="8" fill="#0d1117" stroke="#2b313a"/>
-    <text x="22" y="34" class="eyebrow">LIVE DISCIPLINES</text>
-    <g class="mono"><text x="22" y="78">01</text><text x="64" y="78">PRODUCT ENGINEERING</text><text x="273" y="78" class="dim">●</text><text x="22" y="116">02</text><text x="64" y="116">APPLIED INTELLIGENCE</text><text x="273" y="116" class="dim">●</text><text x="22" y="154">03</text><text x="64" y="154">CLOUD SYSTEMS</text><text x="273" y="154" class="dim">●</text><text x="22" y="192">04</text><text x="64" y="192">PRODUCT ARCHITECTURE</text><text x="273" y="192" class="dim">●</text></g>
-    <path d="M22 212H286" stroke="#29313b"/><rect x="22" y="211" width="54" height="2" fill="url(#line)" class="scan"/>
-  </g>
-  <g transform="translate(68 471)"><path d="M0 0H1064" stroke="#262d36"/><path d="M0 0H520" stroke="url(#line)"/><circle cx="520" r="4" fill="#aebbd1" class="pulse"/></g>
-  <text x="68" y="500" class="eyebrow">SCROLL / EXPLORE THE SYSTEM</text><text x="1132" y="500" text-anchor="end" class="eyebrow">01—08</text>
+
+  <rect width="1600" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1600" height="360" rx="18" fill="url(#grid)" opacity="0.55"/>
+
+  <circle cx="1320" cy="70" r="130" fill="#58A6FF" opacity="0.05" filter="url(#glow)"/>
+  <circle cx="1320" cy="70" r="86" stroke="#58A6FF" stroke-opacity="0.16"/>
+  <circle cx="1320" cy="70" r="52" stroke="#58A6FF" stroke-opacity="0.25"/>
+  <circle cx="1320" cy="70" r="5" fill="#58A6FF"/>
+
+  <path d="M0 280C250 240 420 310 650 270C880 230 1000 130 1230 150C1390 164 1490 190 1600 130"
+        stroke="url(#line)" stroke-width="1.5"/>
+
+  <path d="M0 282C250 242 420 312 650 272C880 232 1000 132 1230 152C1390 166 1490 192 1600 132"
+        stroke="#58A6FF" stroke-opacity="0.15" stroke-width="8" filter="url(#glow)"/>
+
+  <rect x="90" y="76" width="4" height="100" rx="2" fill="#58A6FF"/>
+
+  <text x="125" y="104"
+        fill="#8B949E"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="14"
+        letter-spacing="3">
+    SOFTWARE ENGINEER
+  </text>
+
+  <text x="125" y="160"
+        fill="#F0F6FC"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="46"
+        font-weight="700">
+    Natanael Sijabat
+  </text>
+
+  <text x="125" y="198"
+        fill="#8B949E"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="20">
+    Full-Stack Developer · Product-minded Engineer
+  </text>
+
+  <text x="125" y="244"
+        fill="#58A6FF"
+        font-family="monospace"
+        font-size="14">
+    next.js  /  react  /  typescript  /  node.js  /  hono
+  </text>
+
+  <text x="1410" y="315"
+        fill="#484F58"
+        font-family="monospace"
+        font-size="11"
+        text-anchor="end">
+    BUILD • OBSERVE • IMPROVE
+  </text>
+
+  <rect x="0.5" y="0.5" width="1599" height="359" rx="17.5"
+        stroke="#30363D"/>
 </svg>
