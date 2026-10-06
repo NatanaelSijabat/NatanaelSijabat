@@ -1,1 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="t d"><title id="t">ZippoTech</title><desc id="d">End of profile and return to top.</desc><defs><linearGradient id="g"><stop stop-color="#8da1c2"/><stop offset="1" stop-color="#756c82"/></linearGradient><style>.brand{font:600 30px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#edf2f7}.k{font:600 10px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1.8px;fill:#77818e}.s{animation:s 4s linear infinite}@keyframes s{from{transform:translateX(-300px)}to{transform:translateX(1200px)}}</style></defs><rect width="1200" height="180" rx="12" fill="#0b0e12" stroke="#292f38"/><path d="M0 1h1200" stroke="#272e37"/><path d="M0 1h240" stroke="url(#g)" stroke-width="2" class="s"/><text x="60" y="82" class="brand">ZippoTech</text><text x="60" y="112" class="k">DESIGN · ENGINEERING · INTELLIGENCE · SYSTEMS</text><text x="1140" y="82" text-anchor="end" class="k">RETURN TO TOP ↑</text><text x="1140" y="112" text-anchor="end" class="k">NATANAEL SIJABAT / GITHUB</text></svg>
+<svg width="1600" height="150" viewBox="0 0 1600 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0" y1="75" x2="1600" y2="75" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30363D"/>
+      <stop offset="0.5" stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#30363D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="150" rx="16" fill="#0D1117"/>
+  <rect x="0.5" y="0.5" width="1599" height="149" rx="15.5" stroke="#30363D"/>
+
+  <line x1="80" y1="75" x2="1520" y2="75" stroke="url(#line)" stroke-opacity="0.5"/>
+
+  <circle cx="800" cy="75" r="5" fill="#58A6FF"/>
+
+  <text x="800" y="58"
+        text-anchor="middle"
+        fill="#F0F6FC"
+        font-family="Arial"
+        font-size="16"
+        font-weight="700">
+    Build something useful.
+  </text>
+
+  <text x="800" y="101"
+        text-anchor="middle"
+        fill="#8B949E"
+        font-family="monospace"
+        font-size="11"
+        letter-spacing="2">
+    NATANAEL SIJABAT · FULL-STACK DEVELOPER
+  </text>
+</svg>
